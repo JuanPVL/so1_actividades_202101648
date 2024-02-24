@@ -14,11 +14,23 @@ Para nuestro script primero debemos crear un archivo con extension .sh, por ejem
 
 `
 #!/bin/bash
+`
+`
 while true
+`
+`
 do
+`
+`
 FECHA=$(date '+%d-%m-%Y')
+`
+`
 echo "Hola usuario, el dia de hoy es $FECHA"
+`
+`
 sleep 1
+`
+`
 done
 `
 El script descrito imprimira el saludo, con la fecha del día en que se hace de forma indefinida, sin embargo primero debemos darle permisos de ejecución al mismo.
